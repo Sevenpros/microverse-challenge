@@ -1,3 +1,17 @@
 .title-div {
     text-align: center;
 }
+.input{
+    margin: 10px 5px;
+    width: 80%;  
+    padding: 16px; 
+}
+
+.inputlable{
+    /* margin: 20px; */
+    margin-top: 30px;
+    /* margin-left: 20%; */
+}
+#survey-form{
+    margin-left: 70px;
+}
