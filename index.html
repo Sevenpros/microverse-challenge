@@ -15,14 +15,28 @@
     <form id="survey-form" >
         
         <label class="inputlable" id="name-label">Name</label>
-        <br><input class="input" id="name" type="text" name="name"> <br>     
+        <br><input class="input" id="name" type="text" name="name" placeholder="Enter Your Name"> <br>     
        
         <label class="inputlable" id="email-label">Email</label>
-        <br> <input class="input" id="email" type="email" name="email"><br>
+        <br> <input class="input" id="email" type="email" name="email" placeholder="Enter Your Email"><br>
         <label class="inputlable" id="number-label">Number</label>
-        <br> <input class="input" id="number" type="number" name="email" max="100" min="0"><br>
+        <br> <input class="input" id="number" type="number" name="email" max="100" min="0" placeholder="Enter Your Number"><br>
 
-     
+        <select class="input" id="dropdown">
+            <option>Option 1</option>
+            <option>Option 2</option>
+            <option>Option 3</option>
+        </select>
+        <br>
+        <!-- <label class="inputlable" id="name-label">Definitely</label> -->
+        <br> <input id="name" type="radio" value="Definitely">Definitely <br>
+
+        <!-- <label class="inputlable" id="name-label">MayBe</label> -->
+        <br> <input  id="name" type="radio" value="MayBe">MayBe  <br>
+
+        <!-- <label class="inputlable" id="name-label">Not Sure</label>  -->
+        <br> <input id="name" type="radio" value="Not Sure"> Not Sure <br>
+
     </form>
 </body>
 </html>
